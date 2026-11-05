@@ -1,0 +1,23 @@
+{
+	"version": 1,
+	"opaqueDrawBuffers": [0,1,9],
+	"translucentDrawBuffers": [0,2,17],
+	"uniforms": [
+		"viewWidth",
+		"viewHeight",
+		"gbufferModelView",
+		"vxViewProjInv",
+		"isEyeInWater",
+		"fogColor",
+		"vxRenderDistance"
+	],
+	"excludeLodsFromVanillaDepth": false,
+	"samplers": {
+		"lightmap": "sampler2D",
+		"vxDepthTexTrans": "sampler2D"
+	},
+	"blending": {
+		"2": "off"
+	},
+	"ssbos": {}
+}
