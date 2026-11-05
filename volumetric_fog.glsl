@@ -1,5 +1,3 @@
-// Volumetric Fog for Glass Block Replacement
-// Adapted from Eclipse-Shader's nether_fog.glsl implementation
 // Uses 3D noise from 2D texture, exponential sampling, and Beer-Lambert law
 
 // SSBO for reading pollution cloud world positions, sizes, and colors
